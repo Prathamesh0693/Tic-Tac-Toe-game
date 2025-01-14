@@ -1,0 +1,102 @@
+* {
+    background-color: rgb(224, 234, 160);
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(124, 18, 18);
+    font-size: 8vmin;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    margin-top: 4vmin;
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.box {
+    background-color: rgb(145, 220, 228);
+    height: 18vmin;
+    width: 18vmin;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem 0 rgb(37, 49, 51);
+    font-size: 10vmin;
+    font-weight: bold;
+    font-family: "Montserrat Alternates", serif;
+    color: rgb(142, 38, 38);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 5vmin;
+    width: 13vh;
+    border-radius: 1vh;
+    border: 1px solid black;
+    margin-top: 9vmin;
+    background-color: rgb(29, 124, 180);
+    font-weight: bold;
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.disabled {
+    pointer-events: none;
+    background-color: rgb(130, 215, 194);
+}
+
+.winMsg {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(199, 61, 56);
+    font-size: 6vmin;
+}
+
+.newGame {
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 5vmin;
+    width: 20vh;
+    border-radius: 1vh;
+    border: 1px solid black;
+    margin-top: 9vmin;
+    background-color: rgb(29, 124, 180);
+    font-weight: bold;
+    font-size: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vmin;
+}
+
+.hide {
+    display: none;
+}
